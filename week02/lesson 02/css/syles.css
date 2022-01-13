@@ -1,0 +1,14 @@
+.grid-container {
+  margin: 5rem auto;
+  width: min(100%, 80rem);
+  display: grid;
+  grid-template-columns:33% 33% 33%;
+  gap: 1em;
+}
+
+@media (min-width: 55em); {
+  .grid {
+    grid-auto-flow: column;
+  }
+}
+
